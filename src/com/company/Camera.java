@@ -50,7 +50,11 @@ public class Camera {
     }
 
     public Image getPhoto(){
-        return slick.getCurrentPhoto();
+        if (slick != null && slick.getCurrentPhoto() != null) {
+            return slick.getCurrentPhoto();
+        }else{
+            return null;
+        }
     }
 
 }

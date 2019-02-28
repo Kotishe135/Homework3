@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92b3f915-4c52-4ff1-8268-aac27b1994dc" name="Default Changelist" comment="" />
+    <list default="true" id="92b3f915-4c52-4ff1-8268-aac27b1994dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Camera.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,36 +14,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
-              <folding>
-                <element signature="e#2849#2850#0" expanded="true" />
-                <element signature="e#2897#2898#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="112">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Camera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="217">
+              <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
               <folding>
                 <element signature="method#resetSlick#0;class#Camera#0" />
                 <element signature="method#rewind#0;class#Camera#0" />
                 <element signature="method#canMakeAPhoto#0;class#Camera#0" />
-                <element signature="e#482#601#1" />
                 <element signature="method#makeAPhoto#0;class#Camera#0" />
-                <element signature="e#721#1002#1" />
-                <element signature="e#739#916#0" />
-                <element signature="e#940#992#0" />
-                <element signature="e#1338#1339#0" expanded="true" />
-                <element signature="n#!!block;n#getPhoto#0;n#Camera#0" />
-                <element signature="e#1384#1385#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,22 +41,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Slick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+            <state relative-caret-position="156">
+              <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
               <folding>
                 <element signature="method#canReset#0;class#Slick#0" />
                 <element signature="e#303#463#1" />
-                <element signature="e#670#810#1" />
                 <element signature="method#addPhoto#0;class#Slick#0" />
                 <element signature="e#1229#1230#0" expanded="true" />
                 <element signature="n#!!block;n#getPhoto#0;n#Slick#0" />
                 <element signature="e#1265#1266#0" expanded="true" />
-                <element signature="e#1302#1303#0" expanded="true" />
-                <element signature="n#!!block;n#getCurrentPhoto#0;n#Slick#0" />
                 <element signature="e#1350#1351#0" expanded="true" />
                 <element signature="method#canAddPhoto#0;class#Slick#0" />
-                <element signature="e#1266#1401#1" />
-                <element signature="e#1448#1586#1" />
               </folding>
             </state>
           </provider>
@@ -88,13 +75,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/SlickBox.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Camera.java" />
         <option value="$PROJECT_DIR$/src/com/company/Slick.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Camera.java" />
       </list>
     </option>
   </component>
@@ -109,8 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,6 +121,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,8 +172,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -192,7 +183,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -219,55 +210,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Camera.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="method#resetSlick#0;class#Camera#0" />
-            <element signature="method#rewind#0;class#Camera#0" />
-            <element signature="method#canMakeAPhoto#0;class#Camera#0" />
-            <element signature="e#482#601#1" />
-            <element signature="method#makeAPhoto#0;class#Camera#0" />
-            <element signature="e#721#1002#1" />
-            <element signature="e#739#916#0" />
-            <element signature="e#940#992#0" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="n#!!block;n#getPhoto#0;n#Camera#0" />
-            <element signature="e#1384#1385#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="112">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Slick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+        <state relative-caret-position="156">
+          <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
           <folding>
             <element signature="method#canReset#0;class#Slick#0" />
             <element signature="e#303#463#1" />
-            <element signature="e#670#810#1" />
             <element signature="method#addPhoto#0;class#Slick#0" />
             <element signature="e#1229#1230#0" expanded="true" />
             <element signature="n#!!block;n#getPhoto#0;n#Slick#0" />
             <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1302#1303#0" expanded="true" />
-            <element signature="n#!!block;n#getCurrentPhoto#0;n#Slick#0" />
             <element signature="e#1350#1351#0" expanded="true" />
             <element signature="method#canAddPhoto#0;class#Slick#0" />
-            <element signature="e#1266#1401#1" />
-            <element signature="e#1448#1586#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
+        <state relative-caret-position="217">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
           <folding>
-            <element signature="e#2849#2850#0" expanded="true" />
-            <element signature="e#2897#2898#0" expanded="true" />
+            <element signature="method#resetSlick#0;class#Camera#0" />
+            <element signature="method#rewind#0;class#Camera#0" />
+            <element signature="method#canMakeAPhoto#0;class#Camera#0" />
+            <element signature="method#makeAPhoto#0;class#Camera#0" />
           </folding>
         </state>
       </provider>

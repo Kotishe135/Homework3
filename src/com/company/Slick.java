@@ -48,7 +48,11 @@ public class Slick {
     }
 
     public Image getCurrentPhoto(){
-        return photoSlick[numberOfPhoto];
+        if (photoSlick[numberOfPhoto] != null) {
+            return photoSlick[numberOfPhoto];
+        }else{
+            return null;
+        }
     }
 
     public boolean canAddPhoto(){
